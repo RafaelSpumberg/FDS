@@ -14,5 +14,15 @@ public class App {
         basico.viaja(250);
         basico.viaja(150);
         System.out.println(basico);
+
+        Carro esportivo = new Carro("Esportivo",TipoCombustivel.GASOLINA,6,45);
+
+        System.out.println("Tipo: ");
+        System.out.println(esportivo);
+        esportivo.abastece(TipoCombustivel.GASOLINA, 10);
+        esportivo.viaja(30);
+
+        System.out.println(esportivo);
+        System.out.println(esportivo);
     }
 }
