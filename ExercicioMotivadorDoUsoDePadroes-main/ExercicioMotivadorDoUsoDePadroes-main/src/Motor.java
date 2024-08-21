@@ -13,6 +13,10 @@ public class Motor {
         return this.consumo;
     }
 
+    public void setConsumo(double novoConsumo) {
+        this.consumo = novoConsumo;
+    }
+
     public TipoCombustivel getTipoMotor(){
         return this.tipoMotor;
     }
